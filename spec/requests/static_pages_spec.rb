@@ -17,7 +17,7 @@ end
 
 describe 'About pages' do
   it "should have the content 'about us'" do
-    visit '/static_pages/about'
+    visit about_path
     page.should have_content('about us')
   end
 end
