@@ -4,11 +4,14 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.14'
 
 gem 'bootstrap-sass', '2.0.0'
+
+  
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3', '1.3.5'
 
   gem 'rspec-rails','2.9.0'
+  gem 'annotate', '~> 2.4.1.beta'
 end
 
 
